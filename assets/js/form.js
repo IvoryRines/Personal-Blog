@@ -1,23 +1,15 @@
-const themeSwitcher = document.querySelector('#theme-switcher');
-const container = document.querySelector('.container');
+function toggleMode() {
+  const icon = document.getElementById('mode-icon');
+  const currentMode = document.body.classList.contains('dark-mode');
 
-// Set default mode to dark
-let mode = 'dark';
-
-// Listen for a click event on toggle switch
-themeSwitcher.addEventListener('click', function () {
-  // If mode is dark, apply light background
-  if (mode === 'dark') {
-    mode = 'light';
-    container.setAttribute('class', 'light');
+  if (currentMode) {
+    document.body.classList.remove('dark-mode');
+    icon.innerHTML = '🌘'; // Moon emoji for light mode
+  } else {
+    document.body.classList.add('dark-mode');
+    icon.innerHTML = '☀️'; // Sun emoji for dark mode
   }
-  // If mode is light, apply dark background
-  else {
-    mode = 'dark';
-    container.setAttribute('class', 'dark');
-  }
-});
-
+}
 
 
 
@@ -29,7 +21,6 @@ const form = document.getElementById('form');
 
 const blogPost = JSON.parse(localStorage.getItem('blogPost'))||[]
 
-form.addEventListener('submit', addPost);
 
 function addPost(event) {
     event.preventDefault()
@@ -46,4 +37,8 @@ function addPost(event) {
     username.value = ''
     title.value = ''
     content.value = ''
+
+    window.location.href = 'blog.html';
 }
+
+form.addEventListener('submit', addPost);
