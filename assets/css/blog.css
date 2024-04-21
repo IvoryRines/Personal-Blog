@@ -1,8 +1,15 @@
-.btn {
+.title {
     position: fixed;
     top: 20px;
+    left: 20px;
+}
+
+.btn {
+    position: fixed;
+    top: 25px;
     right: 100px;
-    background-color: #c99630;
+    background-color: #fabb04;
+    color: #300c28;
     border-color: #300c28;
 }
     
@@ -14,6 +21,10 @@
     background-color: #853173;
 }
 
+header {
+    border-bottom: #fff;
+    border-width: 10px;
+}
 body {
     padding: 25px;
     background-color: #bdb3ba;
@@ -28,7 +39,7 @@ body.dark-mode {
  
 .mode-toggle {
     position: fixed;
-    top: 20px;
+    top: 22px;
     right: 20px;
     cursor: pointer;
     z-index: 9999;
