@@ -1,5 +1,5 @@
 body {
-  padding: 25px;
+  padding: 10px;
   background-color: #bdb3ba;
   color: black;
 }
@@ -36,5 +36,9 @@ body.dark-mode {
 
 .btn:active {
   background-color: #853173;
+}
+
+.form-container {
+  padding-left: 5%
 }
 

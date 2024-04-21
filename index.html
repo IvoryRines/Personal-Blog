@@ -16,11 +16,42 @@
          </div>
     </header>
 
-    <div class=" hero d-flex p-5 justify-content-center">
-        <img class="col-md-6" src="assets/images/beach sunset.jpg" alt="beach at sunset with purple and golden yellow hues">
-    </div>
+    <main>
+        <div class="container pt-5">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <img src="assets/images/beach sunset.jpg" alt="beach at sunset with purple and golden yellow hues" class="img-fluid">
+                </div>
 
-    <body>
+                <div class="form-container col-md-6">
+                    <form id="form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="input-username">Username</label>
+                                <input type="username" class="form-control" id="input-username">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="input-title"> Blog Title</label>
+                                <input type="title" class="form-control" id="input-title">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-content">Blog Content</label>
+                            <textarea type="text" class="form-control" id="input-content"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="input-button">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- <main>
+        <div class="hero d-flex p-5 justify-content-center">
+            <img class="col-md-6" src="assets/images/beach sunset.jpg" alt="beach at sunset with purple and golden yellow hues">
+        </div>
         <div class="form-container">
             <form id="form">
                 <div class="form-row">
@@ -40,7 +71,7 @@
                 <button type="submit" class="btn btn-primary" id="input-button">Submit</button>
             </form>      
         </div>
-    </body>
+    </main> -->
 
     <script src= "./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>

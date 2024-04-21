@@ -1,11 +1,8 @@
 
 
-// function displayBlogPosts(event) {
-//     event.preventDefault()
-//     const blogPost = 
+const blogPostsContainer = document.querySelector('blogPostsContainer');
 
-//     let newPost
-// }
+const blogPost = JSON.parse(localStorage.getItem('blogPost')) ||[];
 
 
 
