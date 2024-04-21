@@ -9,9 +9,6 @@ body.dark-mode {
   color: #fff;
 }
 
-/* .form-control.dark-mode {
-  background-color: #bdb3ba;
-} */
 
 .mode-toggle {
   position: fixed;
@@ -38,7 +35,14 @@ body.dark-mode {
   background-color: #853173;
 }
 
+.image {
+  padding-bottom: 50px;
+}
 .form-container {
-  padding-left: 5%
+  padding-left: 5%;
+}
+
+h3 {
+  margin-bottom: 50px;
 }
 
