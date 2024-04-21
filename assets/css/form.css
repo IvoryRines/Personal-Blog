@@ -9,9 +9,9 @@ body.dark-mode {
   color: #fff;
 }
 
-.form-control.dark-mode {
+/* .form-control.dark-mode {
   background-color: #bdb3ba;
-}
+} */
 
 .mode-toggle {
   position: fixed;
