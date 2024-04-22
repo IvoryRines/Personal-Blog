@@ -27,7 +27,7 @@ header {
 }
 body {
     padding: 25px;
-    background-color: #bdb3ba;
+    background-color: #b8a4bb;
     color: black;
 }
   
@@ -47,4 +47,15 @@ body.dark-mode {
   
 .emoji {
     font-size: 24px;
+}
+
+.blog-post {
+    border: 1px solid #7940be; /* Define border style */
+    padding: 10px; /* Add some padding for spacing */
+    margin-bottom: 20px; /* Add some margin between posts */
+}
+
+li {
+    font-size: x-small;
+    color: #853173;
 }
